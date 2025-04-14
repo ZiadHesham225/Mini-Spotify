@@ -33,7 +33,7 @@ A lightweight music streaming application built with vanilla JavaScript that use
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/spotify-clone.git
+   git clone https://github.com/ZiadHesham225/Mini-Spotify.git
    ```
 2. **Navigate to Project Directory**
    ```bash
