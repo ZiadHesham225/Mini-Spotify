@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/albumPage.css">
+</head>
+<body>
+    <div class="album-container">
+        <div class="album-info">
+            <img id="album-cover" src="" alt="Album Cover">
+            <div class="album-details">
+                <h1 id="album-title"></h1>
+                <p id="album-artist"></p>
+            </div>
+        </div>
+        <div class="song-list-container">
+            <ul id="song-list"></ul>
+        </div>
+    </div>
+    <div class="playback-bar">
+        <div class="playback-song-info">
+            <img class="song-cover" src="" alt="" />
+            <div>
+                <span class="song-title"></span>
+                <span class="song-artist"></span>
+            </div>
+        </div>
+        <div class="control">
+            <div class="playback-controls">
+                <button id="shuffle"><i class="fa-solid fa-shuffle"></i></button>
+                <button id="prev"><i class="fa-solid fa-backward-step"></i></button>
+                <button id="play-pause"><i class="fa-solid fa-play play"></i></button>
+                <button id="next"><i class="fa-solid fa-forward-step"></i></button>
+                <button id="repeat">
+                    <i class="fa-solid fa-repeat"></i>
+                </button>
+            </div>
+            <div class="player-progress" id="player-progress">
+                <div class="progress" id="progress"></div>
+                <div class="music-duration">
+                    <span id="current-time">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+            </div>
+        </div>
+        <div class="volume-control">
+            <i class="fa-solid fa-volume-high"></i>
+            <input type="range" id="volume" min="0" max="1" step="0.01" value="1" />
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.6.0/color-thief.min.js"></script>
+    <script type="module" src="js/albumPage.js"></script>
+</body>
+</html>
