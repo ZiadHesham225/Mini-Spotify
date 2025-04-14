@@ -35,7 +35,7 @@ A lightweight music streaming application built with vanilla JavaScript that use
    ```bash
    git clone https://github.com/ZiadHesham225/Mini-Spotify.git
    ```
-2. **Navigate to Project Directory**
+2. **Navigate to Proxy Server Directory**
    ```bash
    cd Mini-Spotify\proxy server
    ```
