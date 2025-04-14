@@ -2,7 +2,7 @@
 
 A lightweight music streaming application built with vanilla JavaScript that uses the Deezer API to search and play music, albums, and tracks.
 
-![Spotify Clone Screenshot](https://placehold.co/600x400/121212/ffffff?text=Spotify+Clone)
+![Spotify Clone Screenshot](./images/Screenshot.png)
 
 ## Features
 
